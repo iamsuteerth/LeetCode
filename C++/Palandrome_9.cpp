@@ -12,7 +12,7 @@ public:
             n /= 10; // Value reduced by one order of 10
             rev = rev * 10 + rem;  // We reconstruct the reverse number using this formula and the loop iterations
         }
-        if (( (long long) x == rev && x > 0) || (x==0)) // Considering the given conditions
+        if ( ( (long long) x == rev && x > 0) || (x==0) ) // Considering the given conditions
         {
             return true;
         }
