@@ -4,7 +4,7 @@
 package edu.vit.leetcode.javacodes;
 
 import java.util.HashMap; // We are using this over map because this is just better :D
-import java.util.Map; // Hashmap is part of Map class
+import java.util.Map;     // Hashmap is part of Map class
 
 public class TwoSum_1 {
     public int[] twoSum(int[] nums, int target) { //Function takes in an integer array and an integer as parameters
