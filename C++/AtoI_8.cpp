@@ -14,7 +14,7 @@ public:
         double number = 0; // Since our converted number can be > MAX INT or < MIN INT
         bool isNegative = false; // Typer of integer flag
         int i = 0;
-        while (s[i] != '\0' && s[i] == ' ')
+        while (s[i] != '\0' && s[i] == ' ') // We can use s[i] as well as s.at(i), both mean the same thing
         {
             i++; //We want to skip whitespaces and get index of character
         }

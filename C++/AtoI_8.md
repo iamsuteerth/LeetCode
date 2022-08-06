@@ -31,6 +31,9 @@ Do not ignore any characters other than the leading whitespace or the rest of th
 </font>
 
 ## Sample INPUTS
+
+You may miss a few of these cases, given the type of sample inputs provided on leetcode
+
 <p align="center">
 <font size=4">
 "   98" = 98
