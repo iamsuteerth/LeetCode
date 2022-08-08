@@ -1,7 +1,9 @@
 package edu.vit.leetcode.javacodes;
 
 class Solution {
+    
     public int[] plusOne(int[] digits) {
+        
         // We will implement a simple carry over system
         int carryOver = 1; // Default carry over is 1
         int sum = 0; // Initializing sum
