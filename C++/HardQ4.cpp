@@ -39,12 +39,13 @@ public:
             // c1 is the index before which an imaginary partition can be placed, a is before c1, c is at c1
             // Similar logic can be applied for other cases
             
-            // It is important for the arbitrary values to be negative of each other, so -99999 and 99999 are also valid 
+            // It is important for the arbitrary values to be different, so -99999 and 99999 are also valid 
+            // However, 
             a = c1 == 0 ? -100000 : nums1[c1-1];
             c = c2 == 0 ? -100000 : nums2[c2-1];
             b = c1 >= sizeofnums1 ? 100000 : nums1[c1]; // If cut1 value is greater than size of nums1, we assign an arbitrary large value
             d = c2 >= sizeofnums2 ? 100000 : nums2[c2];
-
+            // However, for solving this problem, use INT_MIN and INT_MAX as there is a testcase with -100000 and 100000, leetcode being leetcode
             // Now we do the main check a < d and c < b
             // if(a < d && c < b){ // Answer Case
             //     if(totalsize%2==0)
