@@ -1,3 +1,8 @@
+/* 
+ * Name : Suteerth Subramaniam
+ * Language Used : C++
+ * Question Link : https://leetcode.com/problems/median-of-two-sorted-arrays/
+ */
 #include <vector>
 #include <math.h>
 using namespace std;

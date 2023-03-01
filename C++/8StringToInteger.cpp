@@ -1,3 +1,8 @@
+/* 
+ * Name : Suteerth Subramaniam
+ * Language Used : C++
+ * Question Link : https://leetcode.com/problems/string-to-integer-atoi/
+ */
 #include <iostream>
 #include <string>
 using namespace std;

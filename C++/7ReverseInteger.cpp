@@ -1,3 +1,8 @@
+/* 
+ * Name : Suteerth Subramaniam
+ * Language Used : C++
+ * Question Link : https://leetcode.com/problems/reverse-integer/
+ */
 #include <iostream>
 class Solution
 {

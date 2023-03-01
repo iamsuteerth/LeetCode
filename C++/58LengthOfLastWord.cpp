@@ -1,3 +1,9 @@
+/* 
+ * Name : Suteerth Subramaniam
+ * Language Used : C++
+ * Question Link : https://leetcode.com/problems/length-of-last-word/
+ */
+#include <iostream>
 #include <iostream>
 #include <vector>
 #include <sstream>

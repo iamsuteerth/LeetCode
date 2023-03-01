@@ -1,3 +1,8 @@
+/* 
+ * Name : Suteerth Subramaniam
+ * Language Used : C++
+ * Question Link : https://leetcode.com/problems/valid-parentheses/
+ */
 #include <vector>
 #include <iostream>
 #include <string>

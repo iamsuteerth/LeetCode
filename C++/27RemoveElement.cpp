@@ -1,3 +1,8 @@
+/* 
+ * Name : Suteerth Subramaniam
+ * Language Used : C++
+ * Question Link : https://leetcode.com/problems/remove-element/
+ */
 #include <iostream>
 #include <vector>
 using namespace std;

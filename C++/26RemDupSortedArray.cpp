@@ -1,3 +1,8 @@
+/* 
+ * Name : Suteerth Subramaniam
+ * Language Used : C++
+ * Question Link : https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+ */
 #include <iostream>
 #include <vector>
 using namespace std;
