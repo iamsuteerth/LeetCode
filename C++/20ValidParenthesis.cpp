@@ -5,7 +5,6 @@ using namespace std;
 class Solution
 {
 public:
-    Solution(){};
     bool isValid(string s)
     {
         vector<char> stack;
@@ -45,16 +44,3 @@ public:
         return stack.empty() ? true : false;
     }
 };
-int main()
-{
-    Solution s;
-    if (s.isValid("[]"))
-    {
-        cout << "True";
-    }
-    else
-    {
-        cout << "False";
-    }
-    return 0;
-}
