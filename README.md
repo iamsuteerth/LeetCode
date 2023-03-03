@@ -2,7 +2,7 @@
 All solved LeetCode Problems
 
 <b>
-All problems are solved in one particular language and there are folders corresponding to those languages.
+All problems are solved in C++, this repo is a collection of my solutions.
 </b>
 
->Problem description is metioned in .md file, the solution is there in the .(Programming_Lang_Extension) file with the same name as that of problem description.
+>Problem link is mentioned in a commented section located on top of the program
