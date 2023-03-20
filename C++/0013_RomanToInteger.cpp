@@ -44,8 +44,9 @@ public:
     {
         int ans = 0;
         int symbol_1, symbol_2;
-        for (int i = 0; i < s.length(); i++)
-        {                                 // We iterate through the string
+        // Iterating through string
+        for (int i = 0; i < s.length(); i++) 
+        {                                 
             symbol_1 = charToValue(s[i]); // We call our function and convert it into integer
             if (i + 1 < s.length())
             { // This control structure is for i+1 symbol, and we make sure its in bounds
