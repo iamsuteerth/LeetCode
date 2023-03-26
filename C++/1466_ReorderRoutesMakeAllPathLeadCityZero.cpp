@@ -22,8 +22,8 @@ public:
         }
     }
     int minReorder(int n, vector<vector<int>>& connections) {
-        // Real Edge = 1
-        // Fake Edge = 0 
+        // Real Edge represented by 1
+        // Fake Edge represented by 0 
         unordered_map<int,vector<pair<int,int>>> adj;
         for(auto &vec : connections){
             int u = vec[0];
