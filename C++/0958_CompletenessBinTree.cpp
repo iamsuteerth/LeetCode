@@ -3,6 +3,8 @@
  * Language Used : C++
  * Question Link : https://leetcode.com/problems/check-completeness-of-a-binary-tree/
  */
+#include <queue>
+using namespace std;
 struct TreeNode {
   int val;
   TreeNode *left;
