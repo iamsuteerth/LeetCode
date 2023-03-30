@@ -27,7 +27,7 @@ public:
 
             bool swapped = solve(s1.substr(0, i), s2.substr(n-i, i)) &&
                            solve(s1.substr(i, n-i), s2.substr(0, n-i));
-            if(swapped) { /
+            if(swapped) { 
                 result = true;
                 break;
             }
