@@ -33,6 +33,6 @@ public:
                 start = mid + 1;
             }
         }
-        return (x < control * control) ? (int)control - 1 : (int)control;
+        return (x < control * control) ? (int)control - 1 : (int)control; // Ternary Expression
     }
 };
