@@ -1,3 +1,10 @@
+/* 
+ * Name : Suteerth Subramaniam
+ * Language Used : C++
+ * Question Link : https://leetcode.com/problems/maximum-width-of-binary-tree/
+ */
+#include <queue>
+using namespace std;
 class Solution {
 public:
     typedef unsigned long long ll;
