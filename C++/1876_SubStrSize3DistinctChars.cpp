@@ -10,9 +10,9 @@ class Solution {
 public:
     int countGoodSubstrings(string s) {
         int n = s.length();
-        int count = 0;
+        int count = 0, i;
         if(n >= 3){
-            for(int i = 0 ; i < n - 2 ; i++){
+            for(i = 0 ; i < n - 2 ; i++){
                 if(s[i] != s[i+1] && s[i] != s[i+2] && s[i+1] != s[i+2]){
                     count++;
                 }
