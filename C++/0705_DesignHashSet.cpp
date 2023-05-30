@@ -14,7 +14,7 @@ public:
     MyHashSet() {
         map.resize(prime, -1);
     }
-    // Modulo Division method is used here
+    // Modulo Division method is used 
     void add(int key) {
         int index = key % prime;
         if (map[index] == -1) {
