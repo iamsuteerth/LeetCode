@@ -1,3 +1,8 @@
+/* 
+ * Name : Suteerth Subramaniam
+ * Language Used : C++
+ * Question Link : https://leetcode.com/problems/detonate-the-maximum-bombs/
+ */
 #include <vector>
 #include <unordered_set>
 #include <iostream>
