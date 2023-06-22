@@ -4,6 +4,7 @@
  * Question Link : https://leetcode.com/problems/merge-strings-alternately/
  */
 #include <string>
+#include <iostream>
 class Solution {
 public:
     string mergeAlternately(string word1, string word2) {
