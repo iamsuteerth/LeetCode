@@ -6,6 +6,7 @@
 #include <iostream>
 #include <vector>
 #include <unordered_set>
+using namespace std;
 class Solution {
 public:
     // unordered_set<int> uset;
