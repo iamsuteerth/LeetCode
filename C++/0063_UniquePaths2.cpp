@@ -8,8 +8,7 @@
 using namespace std;
 class Solution {
 public:
-    int m;
-    int n;
+    int m, n;
     // Classic DP problem
     int memo[101][101];
     int solve(int x, int y, vector<vector<int>> &grid){
