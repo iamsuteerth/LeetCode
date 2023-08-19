@@ -44,6 +44,7 @@ public:
     // }
     int optimal(int n){
         // You need i - 1 and i - 2
+        // Bottum up approach needs you to find this dependency on sub problems
         if(n == 0 || n == 1 || n ==2)
             return n;
         int a = 1,b = 2,c = 3;
