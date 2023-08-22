@@ -20,9 +20,21 @@ public:
     //     int skip = solve(idx+1, nums, n);
     //     return memo[idx] = max(take, skip);
     // }
+    int bottum_up(int n, vector<int> &nums){
+        int t[n+1];
+        t[0] = 0;
+        t[1] = nums[0];
+        for(int i = 2 ; i <= n ; i++){
+            int steal = nums[i - 1] + t[i - 2];
+            int skip = t[i - 1];
+            t[i] = max(steal, skip);
+        }
+        return t[n];
+    }
     int rob(vector<int>& nums) {
         // memset(memo, -1, sizeof(memo)); // For memoization
         int n = nums.size();
         //return solve_memo(0, nums, nums.size());
+        return bottum_up(n, nums);
     }
 };
