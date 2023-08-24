@@ -15,8 +15,7 @@ public:
         return recursive(res, num/26);
     }
     string convertToTitle(int columnNumber) {
-        // Consider HexaDecimal system
-        // Here it is a IsocoHexaDecimal system
+        // Consider HexaDecimal system. Here it is a IsocoHexaDecimal system
         string res = "";
         int i = 1;
         // Since A = 1 and NOT 0, we are subtracting colnum 
