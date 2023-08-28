@@ -14,7 +14,7 @@ class Solution {
 public:
     bool hasCycle(ListNode *head) {
         ListNode* slow = head;
-        ListNode* fast = head;
+        ListNode* fast = head; // Will move 2x the speed of slow
         while(fast != NULL && fast->next != NULL){
             slow = slow->next;
             fast = fast->next->next;
