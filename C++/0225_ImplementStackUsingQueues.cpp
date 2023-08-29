@@ -3,7 +3,7 @@
  * Language Used : C++
  * Question Link : https://leetcode.com/problems/implement-stack-using-queues/
  */
-#include <vector>
+#include <queue>
 #include <iostream>
 using namespace std;
 class MyStack {
