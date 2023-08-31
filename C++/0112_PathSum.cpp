@@ -16,9 +16,8 @@ struct TreeNode {
 class Solution {
 public:
     bool visit(TreeNode* root, int sum, int &targetSum){
-        if(!root){
+        if(!root)
             return false;
-        }
         if (!root->left && !root->right)
             return sum + root->val == targetSum; // Check if this is a leaf node and the sum matches the target
         return visit(root->left, sum + root->val, targetSum) || visit(root->right, sum + root->val, targetSum);
