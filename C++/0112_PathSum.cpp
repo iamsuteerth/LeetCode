@@ -1,7 +1,7 @@
 /* 
  * Name : Suteerth Subramaniam
  * Language Used : C++
- * Question Link : https://leetcode.com/problems/pascals-triangle-ii/
+ * Question Link : https://leetcode.com/problems/path-sum/
  */
 #include <iostream>
 using namespace std;
