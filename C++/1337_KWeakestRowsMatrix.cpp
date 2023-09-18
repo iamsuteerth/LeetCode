@@ -4,8 +4,8 @@
  * Question Link : https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
  */
 #include <iostream>
-#include <vector>
 #include <priority_queue>
+#include <vector>
 using namespace std;
 class Solution {
 public:
