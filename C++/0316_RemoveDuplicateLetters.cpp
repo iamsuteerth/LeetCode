@@ -12,6 +12,7 @@ public:
         vector<int> last_occurrence(26, -1);
         vector<bool> used(26, false); 
         string result = "";
+        
         for (int i = 0; i < s.length(); i++) {
             last_occurrence[s[i] - 'a'] = i;
         }
