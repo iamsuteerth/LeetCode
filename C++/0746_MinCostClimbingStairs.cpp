@@ -1,7 +1,7 @@
 /*
  * Name : Suteerth Subramaniam
  * Language Used : C++
- * Question Link : https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+ * Question Link : https://leetcode.com/problems/min-cost-climbing-stairs/
  */
 #include <iostream>
 #include <vector>
